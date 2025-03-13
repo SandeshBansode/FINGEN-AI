@@ -6,7 +6,8 @@ export function DashboardHeader() {
 
   // Function to get the current page title based on the pathname
   const getPageTitle = () => {
-    const path = pathname.split("/").filter(Boolean)
+    const path = pathname ?? "/"
+   // console.log("Current Path:", pathname); // Debugging output//
     if (path.length === 1) return "Dashboard"
 
     // Convert kebab-case to Title Case and remove hyphens

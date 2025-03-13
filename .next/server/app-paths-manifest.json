@@ -1,6 +1,24 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
+  "/api/health/route": "app/api/health/route.js",
+  "/api/integration-check/route": "app/api/integration-check/route.js",
+  "/api/system-check/route": "app/api/system-check/route.js",
+  "/api/connection-check/route": "app/api/connection-check/route.js",
+  "/api/chat/route": "app/api/chat/route.js",
+  "/educational-resources/page": "app/educational-resources/page.js",
+  "/features/page": "app/features/page.js",
+  "/market-analysis/page": "app/market-analysis/page.js",
+  "/test/page": "app/test/page.js",
+  "/portfolio-simulator/page": "app/portfolio-simulator/page.js",
+  "/page": "app/page.js",
+  "/dashboard/educational-resources/page": "app/dashboard/educational-resources/page.js",
+  "/dashboard/learning/page": "app/dashboard/learning/page.js",
+  "/dashboard/ai-assistant/page": "app/dashboard/ai-assistant/page.js",
   "/dashboard/portfolio/page": "app/dashboard/portfolio/page.js",
-  "/dashboard/financial-goals/page": "app/dashboard/financial-goals/page.js"
+  "/dashboard/notifications/page": "app/dashboard/notifications/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/settings/page": "app/dashboard/settings/page.js",
+  "/dashboard/profile/page": "app/dashboard/profile/page.js",
+  "/dashboard/financial-goals/page": "app/dashboard/financial-goals/page.js",
+  "/dashboard/risk-assessment/page": "app/dashboard/risk-assessment/page.js"
 }

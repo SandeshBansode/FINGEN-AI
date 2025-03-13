@@ -1,4 +1,4 @@
-// File: /home/user/FINGEN-AI/app/dashboard/portfolio/page.tsx
+// File: C:\Users\Asus\OneDrive\Desktop\Workflow Systems\hackathons\Google solutions national lvl hackathon\FINGEN-AI-main\FINGEN-AI-main\app\dashboard\portfolio\page.tsx
 import * as entry from '../../../../../app/dashboard/portfolio/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
