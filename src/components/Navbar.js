@@ -1,6 +1,7 @@
 "use client"
 
-import { Link, useLocation } from "react-router-dom"
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { LanguageSelector } from "./LanguageSelector"
 
 export function Navbar({ darkMode, setDarkMode }) {

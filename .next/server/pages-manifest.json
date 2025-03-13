@@ -1,14 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/FinancialGoals": "pages/FinancialGoals.js",
-  "/EducationalResources": "pages/EducationalResources.js",
-  "/Home": "pages/Home.js",
-  "/PortfolioSimulator": "pages/PortfolioSimulator.js",
-  "/Learning": "pages/Learning.js",
-  "/MarketAnalysis": "pages/MarketAnalysis.js",
-  "/Recommendations": "pages/Recommendations.js",
-  "/RiskAssessment": "pages/RiskAssessment.js",
-  "/UserProfile": "pages/UserProfile.js",
-  "/_document": "pages/_document.js"
-}
+{}

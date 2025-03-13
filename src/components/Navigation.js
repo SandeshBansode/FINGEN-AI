@@ -1,27 +1,27 @@
-import { Link } from "react-router-dom"
+import Link from "next/link";
 
 export function Navigation() {
   return (
     <nav className="flex items-center justify-between px-6 py-4 bg-white">
       <div className="flex items-center">
-        <Link to="/" className="text-2xl font-bold">
+        <Link href="/" className="text-2xl font-bold">
           FinAI
         </Link>
       </div>
       <div className="hidden md:flex items-center space-x-8">
-        <Link to="/" className="text-gray-600 hover:text-black">
+        <Link href="/" className="text-gray-600 hover:text-black">
           Home
         </Link>
-        <Link to="/learn" className="text-gray-600 hover:text-black">
+        <Link href="/learn" className="text-gray-600 hover:text-black">
           Learn
         </Link>
-        <Link to="/help" className="text-gray-600 hover:text-black">
+        <Link href="/help" className="text-gray-600 hover:text-black">
           Help
         </Link>
-        <Link to="/blog" className="text-gray-600 hover:text-black">
+        <Link href="/blog" className="text-gray-600 hover:text-black">
           Blog
         </Link>
-        <Link to="/about" className="text-gray-600 hover:text-black">
+        <Link href="/about" className="text-gray-600 hover:text-black">
           About
         </Link>
       </div>
