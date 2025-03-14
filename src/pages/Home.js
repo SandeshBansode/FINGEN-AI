@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom"
 
+import { useUser } from "@auth0/nextjs-auth0/client";
+
 export default function Home() {
+  const { user, error, isLoading } = useUser();
   return (
     <div className="w-full">
       {/* Hero Section */}
@@ -148,12 +151,11 @@ export default function Home() {
           <h2 className="text-3xl font-extrabold">Ready to start your investment journey?</h2>
           <p className="mt-4 text-xl">Join thousands of investors using AI to achieve their financial goals</p>
           <div className="mt-8">
-            <Link
-              to="/learning"
+            <button href = "api/auth/login"
               className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-md text-lg font-medium shadow-md inline-block"
             >
               Get Started for Free
-            </Link>
+            </button>
           </div>
         </div>
       </div>

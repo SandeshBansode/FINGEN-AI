@@ -1,5 +1,5 @@
 {
-  "name": "my-v0-project",
+  "name": "fingenai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "latest",
+    "@auth0/auth0-react": "^2.3.0",
+    "@auth0/nextjs-auth0": "^3.6.0",
+    "@google/generative-ai": "^0.24.0",
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "^1.2.2",
     "@radix-ui/react-alert-dialog": "^1.1.4",
@@ -44,6 +47,7 @@
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",
     "date-fns": "3.0.0",
+    "dotenv": "^16.4.7",
     "embla-carousel-react": "8.5.1",
     "fs": "latest",
     "input-otp": "1.4.1",
@@ -63,7 +67,7 @@
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
-    "vercel": "^41.4.0",
+    "vercel": "^41.4.1",
     "webpack": "^5.98.0",
     "zod": "^3.24.1"
   },

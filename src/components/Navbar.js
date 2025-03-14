@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { LanguageSelector } from "./LanguageSelector"
+import { LanguageSelector } from "./LanguageSelector";
+import { useUser } from "@auth0/nextjs-auth0/client";
+import { useLocation } from "react-router-dom";
 
 export function Navbar({ darkMode, setDarkMode }) {
-  const location = useLocation()
+  const location = useLocation();
+  const { user, error, isLoading } = useUser();
 
   const navItems = [
     { path: "/", label: "Home" },
@@ -19,14 +22,14 @@ export function Navbar({ darkMode, setDarkMode }) {
     { path: "/financial-goals", label: "Financial Goals" },
     { path: "/educational-resources", label: "Resources" },
     { path: "/user-profile", label: "Profile" },
-  ]
+  ];
 
   return (
     <nav className="bg-white dark:bg-gray-800 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="text-blue-600 dark:text-blue-400 font-bold text-xl">
+            <Link href="/" className="text-blue-600 dark:text-blue-400 font-bold text-xl">
               FinAI
             </Link>
           </div>
@@ -35,7 +38,7 @@ export function Navbar({ darkMode, setDarkMode }) {
               {navItems.map((item) => (
                 <Link
                   key={item.path}
-                  to={item.path}
+                  href={item.path}
                   className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
                     location.pathname === item.path
                       ? "border-blue-500 text-gray-900 dark:text-white"
@@ -86,13 +89,13 @@ export function Navbar({ darkMode, setDarkMode }) {
                 </svg>
               )}
             </button>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium"
+            href="/api/auth/login">
               Sign Up
             </button>
           </div>
         </div>
       </div>
     </nav>
-  )
+  );
 }
-
