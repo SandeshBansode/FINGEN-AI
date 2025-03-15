@@ -1,6 +1,7 @@
 let userConfig = undefined
 try {
-  userConfig = await import('./v0-user-next.config')
+  userConfig = await import('./v0-user-next.config')//most basic prototype was created by sandesh using v0 and added new features to it
+  
 } catch (e) {
   // ignore error
 }
