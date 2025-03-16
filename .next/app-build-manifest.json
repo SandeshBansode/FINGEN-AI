@@ -21,30 +21,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/page.js"
     ],
-    "/dashboard/learning/loading": [
+    "/api/chat/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/learning/loading.js"
+      "static/chunks/app/api/chat/route.js"
     ],
-    "/dashboard/learning/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/learning/page.js"
-    ],
-    "/dashboard/financial-goals/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/financial-goals/page.js"
-    ],
-    "/dashboard/risk-assessment/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/risk-assessment/page.js"
-    ],
-    "/dashboard/portfolio/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/portfolio/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

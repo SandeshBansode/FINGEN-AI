@@ -15,7 +15,7 @@ app.add_middleware(
 )
 
 # Configure the Gemini API
-genai.configure(api_key="AIzaSyCGYCIu-FTGRmiiojGi3Wy9K91DC-BWROk")
+genai.configure(api_key="AIzaSyD3MNDy6-c6FQWgOtVTGn9km4pW5vW36Ps")
 
 class ChatRequest(BaseModel):
     message: str

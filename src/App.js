@@ -6,6 +6,8 @@ import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { ChatBot } from "../components/ChatBot";
 import { NewsTicker } from "../components/NewsTicker";
+import LanguageSelector from "./components/LanguageSelector";
+
 
 export default function App({ Component, pageProps }) {
   const [showChat, setShowChat] = useState(false);
