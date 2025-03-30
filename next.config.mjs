@@ -44,13 +44,5 @@ function mergeConfig(nextConfig, userConfig) {
     }
   }
 }
-module.exports = {
-  exportPathMap: async function () {
-    return {
-      "/": { page: "/" },
-      // Remove "/Home" from static exports if it's failing
-    };
-  },
-};
 
 export default nextConfig
