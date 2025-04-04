@@ -10,14 +10,14 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "FinAI - Your AI Financial Assistant",
   description: "AI-powered financial assistant for smarter investing",
-    generator: 'v0.dev'
+    
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} pt-16`}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <NavMenu />
           {children}
           <FloatingAssistant />
