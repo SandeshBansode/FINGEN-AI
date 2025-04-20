@@ -1,5 +1,7 @@
 # FinAI - AI-Powered Financial Assistant
 
+https://fingen-ai-smxh.vercel.app/
+
 A modern financial management platform with AI-powered insights and recommendations.
 
 ## Features
