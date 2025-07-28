@@ -3,7 +3,7 @@
 https://fingen-ai-smxh.vercel.app/
 
 A modern financial management platform with AI-powered insights and recommendations.
-
+<img src="fingrn.png" >
 ## Features
 
 - Smart Portfolio Management
